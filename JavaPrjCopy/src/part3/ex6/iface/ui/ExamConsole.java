@@ -6,7 +6,7 @@ import part3.ex5.abst.entity.Exam;
 
 public class ExamConsole {
 	
-	private ConsoleListener listener;
+	private ConsoleListener listener;//
 	
 	public void setListener(ConsoleListener listener) {
 		this.listener = listener;
@@ -46,6 +46,7 @@ public class ExamConsole {
 		System.out.println("영어 : " + exam.getEng());
 		System.out.println("수학 : " + exam.getMath());
 		
+		//
 		if(listener != null)
 			listener.onPrint();
 		

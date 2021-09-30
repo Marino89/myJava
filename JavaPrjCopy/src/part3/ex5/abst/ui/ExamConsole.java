@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 import part3.ex5.abst.entity.Exam;
 
-public abstract class ExamConsole {
+public abstract class ExamConsole {// onPrint() 추상메소드 때문에 추상클래스로
 	
 	// Exam 객체 exam을 has a 상속해주세요.
-	private Exam exam;
+	private Exam exam; //DI - 재료
 	
 	public ExamConsole() {
 		// 1. Composition Has A 관계
@@ -28,7 +28,7 @@ public abstract class ExamConsole {
 		this.exam = exam;
 	}
 	
-	protected abstract void onPrint();
+	protected abstract void onPrint();// 추상메소드 선언, 보호모드는 자식클래스에게만 사용되도록
 	
 	public void print() {
 		Scanner scan = new Scanner(System.in);

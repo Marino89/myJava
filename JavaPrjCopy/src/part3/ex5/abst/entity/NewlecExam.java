@@ -26,7 +26,6 @@ public class NewlecExam extends Exam {
 
 	@Override
 	public double avg() {
-		// TODO Auto-generated method stub
 		return total() / 4.0;
 	}	
 	

@@ -24,7 +24,7 @@ public class Exam {
 	}
 	
 	
-	
+	// ¸Þ¼Òµå
 	public void load() throws IOException {
 		
 		File file = new File("res/data.txt");		
@@ -55,17 +55,17 @@ public class Exam {
 	}
 
 	public int total() {
-		// TODO Auto-generated method stub
+		
 		return kor+eng+math;
 	}
 
 	public double avg() {
-		// TODO Auto-generated method stub
+		
 		return total()/3.0;
 	}
 
 	public int getKor() {
-		// TODO Auto-generated method stub
+		
 		return kor;
 	}
 

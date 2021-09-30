@@ -1,6 +1,7 @@
 package part3.ex4.is;
 
-public class NewlecExam extends Exam {
+public class NewlecExam extends Exam {//Is-A 상속
+	// 컴퓨터 과목 새로 추가
 	private int com;
 	
 	
@@ -21,6 +22,7 @@ public class NewlecExam extends Exam {
 		this.com = com;
 	}
 	
+	// override
 	public int total() {
 		return super.total()+com;
 	}

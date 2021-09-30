@@ -15,12 +15,12 @@ public class Program {
 		Exam exam = new Exam();
 		
 		// Constructor DI
-		// Constructor Dependency Injection
+		// Constructor Dependency Injection (개체 세팅)
 		ExamConsole console = new ExamConsole(exam);
 		
 		// Setter Dependency Injection
 		// Setting : Injection : 주입, 조립
-		//console.setExam(exam);
+		//console.setExam(exam); //exam 개체 DI한다(세팅한다)
 		
 		
 		

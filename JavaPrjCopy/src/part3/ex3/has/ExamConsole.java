@@ -11,7 +11,8 @@ public class ExamConsole {
 		// 1. Composition Has A 관계
 		// this.exam = new Exam();
 	}	
-				
+	
+	// 오버로드 생성자
 	public ExamConsole(Exam exam) {
 		this.exam = exam;
 	}

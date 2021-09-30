@@ -53,14 +53,14 @@ public abstract class Exam {
 	}
 
 	public int total() {
-		// TODO Auto-generated method stub
+		
 		return kor+eng+math;
 	}
 
-	public abstract double avg();
+	public abstract double avg();// 추상메소드(선언부만 가짐)
 
 	public int getKor() {
-		// TODO Auto-generated method stub
+		
 		return kor;
 	}
 
